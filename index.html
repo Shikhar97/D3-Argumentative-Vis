@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Homework #3: D3 Animations - CSE 578 - Spring 2023</title>
+
+    <link rel="shortcut icon" href="#">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+<div class="d-flex flex-column" id="content-wrapper">
+    <h2 class="text-center text-dark heading-name">Homework #5: Argumentative Vis</h2>
+    <h4 class="text-center text-dark heading-name">Shikhar Gupta - sgupt330@asu.edu</h4>
+
+    <div id="content">
+        <div class="container-fluid">
+            <hr>
+            <div class="row">
+                <div class="col-lg-12 col-xl-12">
+                    <div class="card shadow mb-4">
+                        <div class="card-header text-center">
+                            <h4 class="text-center fw-bold m-0 text-black m-0 p-1">Gender Gap: Exploring Inequality
+                                in the US
+                                Labor Force</h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6 col-xl-6">
+                    <div class="card shadow mb-4">
+                        <div class="card-header text-center">
+                            <h6 class="fw-bold m-0 text-center text-black">
+                                Do females really experience discrimination?
+                            </h6>
+                        </div>
+                        <div class="card-body" id="left_graph">
+                            <div id="stacked_bar_div">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="m-2 text-black description text-justify">
+                            <p>
+                                The visualization uses grouped bar charts to present the number of male and female
+                                workers
+                                for different categories of occupation. The statistics clearly show that the gender gap
+                                hardly exists anymore! If anything, females make up more of the workforce than men.
+                                This debate needs to be stopped.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <div class="card shadow mb-4">
+                        <div class="card-header text-center">
+                            <h6 class="fw-bold m-0 text-center text-black">
+                                Gender gap Prevails!
+                            </h6>
+                        </div>
+                        <div class="card-body" id="right_graph">
+                            <div id="scatter_div">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="m-2 text-black description text-justify">
+                            <p>
+                                The visualization depicts weekly wage for male and female workers in different
+                                categories of occupations
+                                clearly illustrating the existence of a gender pay gap. It shows how females earn
+                                significantly
+                                less than their male counterparts in those job categories where they seem to make up the
+                                majority
+                                of workers(as seen on the left chart). The stark
+                                contrast in wages can be clearly seen, making it difficult to deny the
+                                existence of the gender pay gap!
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12 col-xl-12">
+                    <div class="card shadow mb-4">
+                        <div class="card-header text-center">
+                            <h5 class="text-center fw-bold m-0 text-black m-0 p-1">About the Dataset</h5>
+
+                        </div>
+                        <div class="m-2 text-black description text-justify">
+                            <p>
+                                One controversial topic that has been the subject of debate for decades is the existence
+                                and extent of the gender pay gap. While some argue that it is a thing of the past or is
+                                overstated, others maintain that it is a persistent and systemic problem that
+                                contributes to gender inequality in the workforce. The topic is complex and
+                                multifaceted, involving factors such as occupational segregation, discrimination, and
+                                societal expectations. Despite ongoing efforts to address the issue, there is still a
+                                significant gap between male and female earnings in many industries and professions,
+                                leading to ongoing controversy and debate in the United States.
+                                This dataset from the Bureau of Labor Statistics provides a
+                                comprehensive look at the median weekly incomes of 535 different occupations broken down
+                                by gender. This data can be used to analyze the existence and magnitude of the gender
+                                pay gap in different industries. The dataset can be found <a
+                                    href="https://www.kaggle.com/datasets/jonavery/incomes-by-career-and-gender"
+                                    target="_blank">
+                                here</a>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-4">
+                        <div class="card-header text-center">
+                            <h5 class="text-center fw-bold m-0 text-black m-0 p-1">The Arguments in the
+                                visualizations</h5>
+                        </div>
+                        <div class="m-2 text-black description text-justify">
+                            The left chart is persuasive because it
+                            uses a clear and straightforward presentation of data that is easy to understand at a
+                            glance. The use of color coding to distinguish between male and female workers is
+                            effective in emphasizing the higher number of female workers in most of the categories,
+                            which challenges the notion that men dominate certain industries.
+                            <br>
+                            <br>
+                            The rhetorical framing techniques used in the left chart are:
+                            <ul>
+                                <li><span class="fw-bold">Omission:</span> The graph only shows the categories of
+                                    occupation where the female
+                                    workforce is larger. Other categories and actual wages of females in these
+                                    occupations
+                                    are omitted in the visualization to prove that gender gap does not exist. In fact,
+                                    females are employed more than men.
+                                </li>
+                                <li><span class="fw-bold">Comparison:</span> The left chart uses grouped bars to compare
+                                    the statistics of the
+                                    number of female and male workers to emphasize its argument.
+                                </li>
+                                <li><span class="fw-bold">Anchoring:</span> The left viz directs the viewer's attention
+                                    to only focus on the
+                                    comparison and
+                                    interpret the data by looking at the contrasting information being presented
+                                </li>
+                            </ul>
+                            The right chart is persuasive because it
+                            uses a clear and straightforward presentation of data that is easy to understand at a
+                            glance. The use of color coding to distinguish between male and female weekly wage is
+                            effectively emphasizing in females earning significantly less than their male counterparts
+                            in those job categories
+                            making it difficult to deny the existence of the gender pay gap.
+                            <br>
+                            <br>
+                            The rhetorical framing techniques used in the right chart are:
+                            <ul>
+                                <li><span class="fw-bold">Omission:</span> This graph also only shows the categories of
+                                    occupation where the female
+                                    weekly
+                                    wage is lesser than the male weekly pay. Other categories in these occupations
+                                    are omitted in the visualization to prove that gender gap does exist.
+                                </li>
+                                <li><span class="fw-bold">Comparison:</span> The right chart uses multiple lines to draw
+                                    a comparison between the
+                                    wage of female and male workers to emphasize its argument.
+                                </li>
+                                <li><span class="fw-bold">Anchoring:</span> The left viz directs the viewer's attention
+                                    to only focus on the
+                                    comparison and
+                                    interpret the data by looking at the contrasting information being presented.
+                                </li>
+                                <li><span class="fw-bold">Axis Scaling:</span> The right visualization scales the axis
+                                    to make the pay gap seem
+                                    larger
+                                    than it actually may be.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+Occupation,All_workers,All_weekly,M_workers,M_weekly,F_workers,F_weekly
+MANAGEMENT,12480,1351.0,7332,1486.0,5147,1139.0
+Chief executives,1046,2041.0,763,2251.0,283,1836.0
+General and operations managers,823,1260.0,621,1347.0,202,1002.0
+Marketing and sales managers,948,1462.0,570,1603.0,378,1258.0
+Administrative services managers,170,1191.0,96,1451.0,73,981.0
+Computer and information systems managers,636,1728.0,466,1817.0,169,1563.0
+Financial managers,1124,1408.0,551,1732.0,573,1130.0
+Human resources managers,254,1365.0,68,1495.0,186,1274.0
+Purchasing managers,193,1348.0,109,1404.0,84,1226.0
+"Transportation, storage, and distribution managers",276,966.0,224,1006.0,52,749.0
+Education administrators,778,1423.0,282,1585.0,496,1252.0
+Food service managers,763,742.0,389,820.0,374,680.0
+Lodging managers,123,985.0,54,1171.0,68,902.0
+Medical and health services managers,592,1210.0,154,1422.0,438,1156.0
+"Property, real estate, and community association managers",401,914.0,171,1137.0,230,823.0
+Social and community service managers,305,1022.0,105,1142.0,200,965.0
+"Managers, all other",2803,1408.0,1717,1525.0,1085,1213.0
+BUSINESS,5942,1137.0,2686,1327.0,3256,1004.0
+"Wholesale and retail buyers, except farm products",142,926.0,73,886.0,69,985.0
+"Purchasing agents, except wholesale, retail, and farm products",260,1009.0,136,1020.0,124,986.0
+"Claims adjusters, appraisers, examiners, and investigators",317,963.0,141,1134.0,176,824.0
+Compliance officers,235,1198.0,126,1375.0,109,1025.0
+Human resources workers,592,1002.0,151,1158.0,441,984.0
+Management analysts,529,1431.0,291,1519.0,237,1348.0
+Market research analysts and marketing specialists,203,1284.0,85,1411.0,118,1239.0
+"Business operations specialists, all other",186,1090.0,74,1461.0,112,969.0
+Accountants and auditors,1464,1132.0,618,1345.0,846,988.0
+Financial analysts,295,1426.0,168,1680.0,127,1171.0
+Personal financial advisors,407,1419.0,248,1738.0,159,1033.0
+Credit counselors and loan officers,313,997.0,146,1186.0,166,906.0
+COMPUTATIONAL,4009,1428.0,3036,1503.0,973,1245.0
+Computer systems analysts,499,1389.0,325,1462.0,173,1256.0
+Computer programmers,450,1438.0,357,1501.0,93,1302.0
+"Software developers, applications and systems software",1287,1682.0,1054,1751.0,232,1415.0
+Web developers,151,1165.0,98,1233.0,53,1026.0
+Computer support specialists,396,1079.0,291,1135.0,105,908.0
+"Computer occupations, all other",490,1227.0,374,1252.0,116,1145.0
+Operations research analysts,122,1441.0,59,1574.0,63,1325.0
+ENGINEERING,2656,1424.0,2272,1452.0,383,1257.0
+"Engineers, all other",393,1527.0,339,1537.0,54,1448.0
+"Engineering technicians, except drafters",352,963.0,284,984.0,68,827.0
+SCIENCE,1176,1206.0,662,1379.0,514,1067.0
+Medical scientists,151,1250.0,68,1362.0,84,1082.0
+"Physical scientists, all other",189,1553.0,121,1770.0,68,1170.0
+"Miscellaneous life, physical, and social science technicians",157,846.0,79,1001.0,78,780.0
+SOCIAL SERVICE,2143,889.0,776,973.0,1367,845.0
+Counselors,635,904.0,184,908.0,451,902.0
+Social workers,677,877.0,127,943.0,549,862.0
+Clergy,376,1002.0,316,1021.0,60,924.0
+LEGAL,1346,1391.0,624,1877.0,722,1135.0
+Lawyers,803,1886.0,503,1914.0,300,1717.0
+EDUCATION,6884,956.0,1849,1144.0,5034,907.0
+Postsecondary teachers,917,1258.0,516,1405.0,401,1144.0
+Elementary and middle school teachers,2806,974.0,543,1077.0,2262,957.0
+Secondary school teachers,1048,1066.0,438,1149.0,610,1006.0
+Other teachers and instructors,378,896.0,179,1024.0,199,817.0
+ARTS,1643,1001.0,930,1088.0,713,942.0
+Designers,593,993.0,301,1099.0,291,918.0
+Producers and directors,120,1270.0,67,1340.0,53,1234.0
+Editors,108,1148.0,58,1205.0,50,1125.0
+HEALTHCARE,6566,1041.0,1639,1272.0,4928,991.0
+Pharmacists,206,1920.0,98,2117.0,108,1811.0
+Physicians and surgeons,740,1824.0,457,1915.0,283,1533.0
+Physical therapists,178,1265.0,56,1347.0,123,1215.0
+Registered nurses,2382,1116.0,278,1222.0,2104,1098.0
+Clinical laboratory technologists and technicians,270,901.0,69,1089.0,201,796.0
+Diagnostic related technologists and technicians,253,964.0,76,1106.0,177,908.0
+Health practitioner support technologists and technicians,487,636.0,99,652.0,389,633.0
+H. SUPPORT,2395,498.0,320,577.0,2074,490.0
+"Nursing, psychiatric, and home health aides",1400,467.0,163,526.0,1237,457.0
+PROTECTIVE SERVICE,2729,796.0,2181,851.0,547,655.0
+"Bailiffs, correctional officers, and jailers",453,754.0,341,779.0,112,686.0
+Police and sheriff's patrol officers,655,1002.0,569,1001.0,86,1009.0
+Security guards and gaming surveillance officers,708,567.0,555,592.0,153,515.0
+CULINARY,4124,441.0,2133,481.0,1991,414.0
+Chefs and head cooks,340,619.0,285,656.0,55,492.0
+First-line supervisors of food preparation and serving workers,378,498.0,156,621.0,222,458.0
+Cooks,1302,416.0,808,427.0,494,400.0
+Food preparation workers,366,402.0,174,414.0,192,388.0
+Bartenders,252,521.0,110,569.0,142,493.0
+"Combined food preparation and serving workers, including fast food",173,391.0,67,401.0,107,380.0
+Waiters and waitresses,868,451.0,305,501.0,563,411.0
+GROUNDSKEEPING,3605,486.0,2330,517.0,1275,419.0
+First-line supervisors of housekeeping and janitorial workers,172,620.0,108,700.0,64,571.0
+Janitors and building cleaners,1536,507.0,1111,547.0,425,429.0
+Maids and housekeeping cleaners,876,416.0,134,475.0,742,407.0
+SERVICE,2427,498.0,664,597.0,1763,475.0
+First-line supervisors of gaming workers,117,769.0,65,900.0,52,680.0
+Personal care aides,680,462.0,128,537.0,552,441.0
+Recreation and fitness workers,185,555.0,78,684.0,107,526.0
+SALES,9725,716.0,5423,880.0,4303,578.0
+First-line supervisors of retail sales workers,2326,711.0,1296,825.0,1030,614.0
+First-line supervisors of non-retail sales workers,835,1028.0,556,1140.0,280,896.0
+Cashiers,1342,415.0,411,471.0,931,405.0
+Retail salespersons,1918,590.0,1159,694.0,759,494.0
+Advertising sales agents,161,925.0,78,1155.0,83,729.0
+Insurance sales agents,427,815.0,194,1028.0,232,717.0
+"Securities, commodities, and financial services sales agents",211,1155.0,146,1461.0,65,767.0
+"Sales representatives, services, all other",406,966.0,268,1147.0,139,699.0
+"Sales representatives, wholesale and manufacturing",1138,1020.0,843,1066.0,295,917.0
+Real estate brokers and sales agents,463,837.0,197,1052.0,266,735.0
+"Sales and related workers, all other",158,916.0,89,1088.0,70,727.0
+OFFICE,13894,656.0,3961,693.0,9933,646.0
+First-line supervisors of office and administrative support workers,1297,812.0,434,878.0,863,781.0
+Bill and account collectors,152,657.0,54,674.0,98,648.0
+"Bookkeeping, accounting, and auditing clerks",769,692.0,87,690.0,682,692.0
+Customer service representatives,1760,621.0,611,690.0,1149,604.0
+"Hotel, motel, and resort desk clerks",127,481.0,58,486.0,69,467.0
+Receptionists and information clerks,852,575.0,72,619.0,781,569.0
+Dispatchers,250,698.0,109,759.0,141,655.0
+Postal service clerks,127,927.0,76,974.0,51,833.0
+Postal service mail carriers,302,954.0,187,1021.0,115,854.0
+"Production, planning, and expediting clerks",256,838.0,116,978.0,141,732.0
+"Shipping, receiving, and traffic clerks",502,591.0,354,604.0,148,566.0
+Stock clerks and order fillers,1027,520.0,651,537.0,376,506.0
+Secretaries and administrative assistants,2223,687.0,124,786.0,2099,683.0
+Data entry keyers,223,619.0,55,589.0,169,638.0
+Insurance claims and policy processing clerks,259,689.0,56,762.0,203,675.0
+"Office clerks, general",929,620.0,156,609.0,773,622.0
+"Office and administrative support workers, all other",391,745.0,93,852.0,298,718.0
+AGRICULTURAL,810,464.0,637,477.0,174,437.0
+Miscellaneous agricultural workers,613,445.0,511,460.0,102,398.0
+CONSTRUCTION,5722,749.0,5586,751.0,137,704.0
+MAINTENANCE,4301,839.0,4159,842.0,143,761.0
+PRODUCTION,7551,663.0,5548,729.0,2003,519.0
+First-line supervisors of production and operating workers,783,875.0,650,924.0,133,623.0
+"Electrical, electronics, and electromechanical assemblers",123,554.0,59,566.0,64,544.0
+Miscellaneous assemblers and fabricators,950,581.0,573,637.0,377,512.0
+Bakers,150,505.0,69,570.0,80,475.0
+"Butchers and other meat, poultry, and fish processing workers",247,542.0,187,582.0,60,463.0
+"Food processing workers, all other",132,594.0,82,679.0,50,508.0
+"Metal workers and plastic workers, all other",351,639.0,278,678.0,72,581.0
+Laundry and dry-cleaning workers,133,466.0,53,487.0,80,460.0
+"Inspectors, testers, sorters, samplers, and weighers",701,710.0,440,844.0,260,583.0
+Packaging and filling machine operators and tenders,239,518.0,118,605.0,120,482.0
+"Production workers, all other",846,625.0,643,666.0,203,501.0
+TRANSPORTATION,6953,646.0,5998,679.0,955,494.0
+Bus drivers,323,615.0,184,681.0,138,572.0
+Driver/sales workers and truck drivers,2687,747.0,2582,751.0,105,632.0
+"Laborers and freight, stock, and material movers, hand",1433,526.0,1214,547.0,219,455.0
+"Packers and packagers, hand",385,438.0,158,462.0,227,424.0
